@@ -10,6 +10,9 @@ li,a{
     text-decoration: none;
     color: black;
 }
+.inner-container li a{
+    margin-left: -5px;
+}
 .second-container{
     float: right;
     margin-right: 200px;

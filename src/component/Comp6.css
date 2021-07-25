@@ -88,6 +88,7 @@
 }
 .innersubconatiner p:hover{
     z-index: 1;
+    text-shadow: 2px 3px 4px;
     width: 200px;
     height: 250px;
     transform: scale(1.25);

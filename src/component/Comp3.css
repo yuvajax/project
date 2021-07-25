@@ -32,7 +32,8 @@
     height: 230px;
     width: 115px;
     margin-top: 110px;
-    margin-left: 105px;
+    margin-left: 106px;
+    z-index: -1;
 }
 .containers-in{
     text-align: left;
@@ -79,7 +80,7 @@
 .fifthimg{
     float: right;
     margin-top: -71px;
-    margin-right: 240px;
+    margin-right: 220px;
     width: 64px;
 }
 #header3{
@@ -87,7 +88,7 @@
     color: darkgrey;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: -50px;
-    margin-left: 305px;
+    margin-left: 320px;
     letter-spacing: 0;
     width: 30%;
     line-height: 20px;

@@ -6,6 +6,7 @@ import Comp3 from './component/Comp3';
 import Comp4 from './component/Comp4';
 import Comp5 from './component/Comp5';
 import Comp6 from './component/Comp6';
+import Comp7 from './component/Comp7';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Comp4/>
       <Comp5/>
       <Comp6/>
+      <Comp7/>
     </div>
   );
 }
