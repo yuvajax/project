@@ -1,5 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import '../component/Comp3.css'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 import img from '../images/image3.jpg'
 import img1 from '../images/image4.jpg'
 import img2 from '../images/image5.jpg'
@@ -7,9 +9,12 @@ import img3 from '../images/image1.png'
 import img4 from '../images/image2.png'
 
 function Comp3() {
+useEffect(()=> {
+    Aos.init({ duration: 1000 });
+}, []);
     return (
         <div className='containers'>
-            <div className='containers2'>
+            <div data-aos="fade-left" className='containers2'>
                 <div className='circle'></div>
                 <div className='image'>
                     <img src={img} className='firstimg'/>
@@ -17,7 +22,7 @@ function Comp3() {
                     <img src={img2} className='thridimg'/>
                 </div>
             </div>
-            <div className='conntainers1'>
+            <div data-aos="fade-right" className='conntainers1'>
                 <div className='inner-containers'>
                     <div className='containers-in'>
                     <p>ABOUT AGRICULTURE</p>

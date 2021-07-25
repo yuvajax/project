@@ -1,4 +1,6 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos'
+import "aos/dist/aos.css";
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import FacebookIcon from '@material-ui/icons/Facebook';
@@ -7,8 +9,11 @@ import img1 from '../images/image12.jpg'
 import '../component/Comp7.css'
 
 function Comp7() {
+    useEffect(()=> {
+        Aos.init({ duration: 1000 });
+    }, []);
     return (
-        <div className='footer'>
+        <div data-aos="zoom-out" className='footer'>
             <div className='footcontainer'>
                 <div className='inner-footer'>
                     <div className='footer-col1'>
