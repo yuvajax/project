@@ -1,0 +1,94 @@
+
+.firstimg{
+    width: 26%;
+    float: left;
+    margin-top: 320px;
+    margin-left: 375px;
+    transform: translate(10px,20px);
+    box-shadow: 0 25px 40px rgba(0, 0 , 0 ,.5);
+}
+.secimg{
+    float: left;
+    width: 25%;
+    margin-left: -401px;
+    margin-top: 60px;
+    box-shadow: 0 25px 40px rgba(0, 0 , 0 ,.5);
+}
+
+.thridimg{
+    position: absolute;
+    margin-top: 175px;
+    margin-left: 110px;
+    left: 50px;
+    width: 9%;
+    clip-path: circle();
+}
+.circle{
+    position: absolute;
+    background-color:bisque;
+    /* border-radius: 100px; */
+    border-bottom-left-radius: 300px;
+    border-top-left-radius: 300px;
+    height: 230px;
+    width: 115px;
+    margin-top: 110px;
+    margin-left: 105px;
+}
+.containers-in{
+    text-align: left;
+}
+.containers2{
+    max-width: 70%;
+}
+.inner-containers{
+    max-width: 40%;
+    height: 50%;
+    float: right;
+    margin-top: 40px;
+    margin-right: 130px;
+}
+.containers-in p{
+     font-size: 12px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     letter-spacing: 2px;
+     line-height: 20px;
+     width: 80%;
+}
+.image{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#header1{
+    font-size: 30px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    height: 60px;
+    line-height: 30px;
+}
+#header2{
+    font-size: 16px;
+    color: darkgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -60px;
+    margin-left: 80px;
+    letter-spacing: 0;
+    width: 40%;
+    line-height: 20px;
+}
+.fifthimg{
+    float: right;
+    margin-top: -71px;
+    margin-right: 240px;
+    width: 64px;
+}
+#header3{
+    font-size: 16px;
+    color: darkgrey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: -50px;
+    margin-left: 305px;
+    letter-spacing: 0;
+    width: 30%;
+    line-height: 20px;
+}

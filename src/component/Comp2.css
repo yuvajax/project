@@ -1,0 +1,55 @@
+.Container1{
+    background-image: url('../images/image2.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+    padding-top: 50px;
+    animation: slide 10s infinite;
+}
+.contant{
+    left: 550px;
+    top: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.contant p{
+    font-size: 20px;
+    font-family: monospace;
+    color: antiquewhite;
+}
+.contant h1{
+    font-size: 50px;
+    color: azure;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(173, 173, 31);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url('../images/image2.jpg');
+    }
+    30%{
+        background-image: url('../images/image2.jpg');
+    }
+    30.01%{
+        background-image: url('../images/image1.jpg');
+    }
+    60%{
+        background-image: url('../images/image1.jpg');
+    }
+    60.01%{
+        background-image: url('../images/image.jpg');
+    }
+    100%{
+        background-image: url('../images/image.jpg');
+    }
+    
+}

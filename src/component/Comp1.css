@@ -1,0 +1,44 @@
+li,a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.inner-container{
+    float: left;
+    margin-left: 150px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+.second-container{
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;
+    padding-right: 200px;
+    color: black;
+}
+.container-in{
+    background-color: whitesmoke;
+    height: 50px;
+    /* padding-left: 200px; */
+    padding-right: 300px;
+    padding-top: 1px;
+    padding-bottom: 2px; 
+    margin-top: 0px;
+    position: relative;
+    color: black;
+}
+.container-in li{
+   margin-left: 50px;
+}
+.container-in a:hover{
+    border: 10px ;
+    border-radius: 5px;
+    background-color: yellow;
+}
+.shop{
+    float: right;
+    position: relative;
+    margin-top: -35px;
+    margin-right: 200px;
+}

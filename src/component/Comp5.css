@@ -1,0 +1,21 @@
+.secondcontainer{
+    margin-top: 110px;
+}
+.secin-container{
+    margin-top: 90px;
+    margin-left: 250px;
+    display: flex;  
+}
+.firin-container{
+    margin-left: 40px;
+}
+.secin-container p{
+    border: 2px solid transparent;
+    padding: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
