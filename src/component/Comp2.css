@@ -1,19 +1,27 @@
 .Container1{
     background-image: url('../images/image2.jpg');
     height: 500px;
+    width: 100%;
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -5px;
     padding-top: 50px;
     animation: slide 10s infinite;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    line-height: 0px;
 }
 .contant{
-    left: 550px;
-    top: 400px;
+    left: 40%;
+    top: 50%;
     position: absolute;
     transform: translate(-50%,-50%);
     text-align: left;
+    letter-spacing: 2px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .contant p{
     font-size: 20px;
@@ -21,6 +29,7 @@
     color: antiquewhite;
 }
 .contant h1{
+    line-height: 40px;
     font-size: 50px;
     color: azure;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;

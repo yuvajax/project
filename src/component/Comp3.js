@@ -14,7 +14,7 @@ useEffect(()=> {
 }, []);
     return (
         <div className='containers'>
-            <div data-aos="fade-left" className='containers2'>
+            <div data-aos="fade-up" className='containers2'>
                 <div className='circle'></div>
                 <div className='image'>
                     <img src={img} className='firstimg'/>
@@ -22,7 +22,7 @@ useEffect(()=> {
                     <img src={img2} className='thridimg'/>
                 </div>
             </div>
-            <div data-aos="fade-right" className='conntainers1'>
+            <div data-aos="fade-down" className='conntainers1'>
                 <div className='inner-containers'>
                     <div className='containers-in'>
                     <p>ABOUT AGRICULTURE</p>

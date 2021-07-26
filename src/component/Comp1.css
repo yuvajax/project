@@ -1,32 +1,39 @@
 li,a{
     display: inline-block;
     text-decoration: none;
-    margin-left: 8px;
+    margin-left: 10px;
+    color: black;
 }
 .inner-container{
     float: left;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 20px;
     text-decoration: none;
     color: black;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .inner-container li a{
-    margin-left: -5px;
+    margin-left: -9px;
+    color: black;
 }
 .second-container{
     float: right;
-    margin-right: 200px;
+    margin-right: 190px;
     margin-top: 20px;
-    padding-right: 200px;
+    padding-right: 0px;
     color: black;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .container-in{
     background-color: whitesmoke;
     height: 50px;
     /* padding-left: 200px; */
-    padding-right: 300px;
+    padding-right: 100px;
     padding-top: 1px;
-    padding-bottom: 2px; 
+    padding-bottom: 5px; 
     margin-top: 0px;
     position: relative;
     color: black;
@@ -43,5 +50,5 @@ li,a{
     float: right;
     position: relative;
     margin-top: -35px;
-    margin-right: 200px;
+    margin-right: 50px;
 }

@@ -1,12 +1,21 @@
 .firstdiv{
     background-color: antiquewhite;
     padding-bottom: 100px;
+    position: relative;
+    margin-top: 620px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-top: 90px;
 }
 .secdiv{
-    margin-top: 620px;
-    padding-top: 90px;
+    /* margin-top: 620px; */
+    /* padding-top: 90px; */
     letter-spacing: 2px;
     line-height: 4px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 #para{
     font-size: 15px;
@@ -27,6 +36,9 @@
 .secinner{
     display: flex;
     padding-left: 250px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .thriddiv1,.thriddiv2,.thriddiv3,.thriddiv4{
     width: 140px;
@@ -38,6 +50,8 @@
     margin-top: 50px;
     line-height: 23px;
     position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .image1,.image2,.image3,.image4{
     width: 190px;

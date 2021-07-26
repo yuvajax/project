@@ -1,10 +1,15 @@
 .secondcontainer{
     margin-top: 110px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .secin-container{
     margin-top: 90px;
     margin-left: 250px;
     display: flex;  
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .firin-container{
     margin-left: 40px;
@@ -17,5 +22,6 @@
     background-color: antiquewhite;
     margin-left: 10px;
     font-size: 15px;
+    overflow: hidden;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

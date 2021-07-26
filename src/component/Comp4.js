@@ -12,12 +12,12 @@ function Comp4() {
         Aos.init({ duration: 1000 });
     }, []);
     return (
-        <div data-aos="fade-up"className='firstdiv'>
-            <div className='secdiv'>
+        <div className='firstdiv'>
+            <div data-aos="fade-up" className='secdiv'>
                 <p id='para'>WHAT WE DO</p>
                 <h1 id='head'>SERVICE WE OFFER</h1>
             </div>
-            <div className='secinner'>
+            <div data-aos="fade-up" className='secinner'>
                 <div data-aos="flip-left" className='thriddiv1'>
                     <div className='innerdiv1'>
                         <h1>FRESH VEGETABLES</h1>

@@ -1,4 +1,7 @@
-
+body{
+overflow: scroll;
+overflow-x: hidden;
+}
 .firstimg{
     width: 26%;
     float: left;
@@ -17,8 +20,8 @@
 
 .thridimg{
     position: absolute;
-    margin-top: 175px;
-    margin-left: 110px;
+    margin-top: 189px;
+    margin-left: 125px;
     left: 50px;
     width: 9%;
     clip-path: circle();
@@ -37,16 +40,24 @@
 }
 .containers-in{
     text-align: left;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .containers2{
     max-width: 70%;
 }
+/* .containers{
+    overflow: hidden;
+} */
 .inner-containers{
     max-width: 40%;
     height: 50%;
     float: right;
     margin-top: 40px;
     margin-right: 130px;
+        overflow-x: hidden;
+    overflow-y: hidden;
 }
 .containers-in p{
      font-size: 12px;

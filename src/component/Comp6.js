@@ -8,6 +8,7 @@ function Comp6() {
         Aos.init({ duration: 1000 });
     }, []);
     return (
+        <div className='headcontainer'>
         <div className='outterdiv1'>
             <div className='outterfirdiv'>
                 <div data-aos="fade-down" className='innerdiv'>
@@ -16,7 +17,7 @@ function Comp6() {
                 </div>
                 <div className='innersubdiv'>
                     <div className='innersubconatiner'>
-                        <div data-aos="fade-right" className='innersubdiv1'>
+                        <div data-aos="fade-down" className='innersubdiv1'>
                             <img></img>
                             <p id='para1'>ORGANIC SOLUTIONS</p>
                         </div>
@@ -24,7 +25,7 @@ function Comp6() {
                             <img></img>
                             <p>HARVEST INNOVATIONS</p>
                         </div>
-                        <div data-aos="fade-left" className='innersubdiv3'>
+                        <div data-aos="fade-down" className='innersubdiv3'>
                             <img></img>
                             <p>AGRICULTURE FRAMING</p>
                         </div>
@@ -44,6 +45,7 @@ function Comp6() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -13,6 +13,7 @@ function Comp5() {
         Aos.init({ duration: 1000 });
     }, []);
     return (
+        <div className='headerdiv'>
         <div className='firstcontainer'>
             <div className='secondcontainer'>
                 <div data-aos="fade-down" className='firin-container'>
@@ -27,6 +28,7 @@ function Comp5() {
                     <p>WEVE 40 YEARS EXPERIENCE IN FIELD</p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

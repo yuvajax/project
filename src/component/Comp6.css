@@ -1,5 +1,7 @@
 .outterdiv1{
     margin-top: 110px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .innerdiv{
     line-height: 5px;
@@ -16,6 +18,7 @@
     display: flex;
     margin-top: 20px;
     margin-left: 150px;
+    margin-right: 0%;
 }
 .innersubdiv1,.innersubdiv2,.innersubdiv3{
     margin-left: 50px;
@@ -59,10 +62,14 @@
 .downcontaner{
     display: flex;
     margin-top: -90px;
+    margin-right: 0px;
     text-align: left;
     background-color: rgba(216, 83, 156, 0.61);
     padding-top: 120px;
     padding-left: 200px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .downcontaner p{
     font-size: 15px;
@@ -82,6 +89,7 @@
 .outtersubdiv2{
     margin-top: 50px;
     margin-left: 40px;
+    margin-right: 0px;
     width: 500px;
     padding: 20px;
     line-height: 25px;
