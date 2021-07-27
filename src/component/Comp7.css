@@ -8,6 +8,7 @@
     padding: 40px;
     padding-top: 100px;
     padding-left: 50px;
+    justify-content: center;
 }
 .inner-footer p{
     font-size: 13px;
@@ -24,6 +25,7 @@
 .inner-footer{
     display: flex;
     text-align: left;
+    justify-content: center;
 }
 .footer-col1,.footer-col2,.footer-col3,.footer-col4{
     width: 53%;

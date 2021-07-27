@@ -12,9 +12,11 @@
     overflow-x: hidden;
     overflow-y: hidden;
     line-height: 0px;
+    justify-content: center;
 }
 .contant{
     left: 40%;
+    justify-content: center;
     top: 50%;
     position: absolute;
     transform: translate(-50%,-50%);

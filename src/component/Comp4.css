@@ -13,6 +13,7 @@
     /* padding-top: 90px; */
     letter-spacing: 2px;
     line-height: 4px;
+    justify-content: center;
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -35,7 +36,8 @@
 }
 .secinner{
     display: flex;
-    padding-left: 250px;
+    padding-left: 20px;
+    justify-content: center;
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -54,7 +56,7 @@
     overflow-y: hidden;
 }
 .image1,.image2,.image3,.image4{
-    width: 190px;
+    width: 200px;
     /* height: 200px; */
     position: absolute;
     top: 180px;
@@ -63,22 +65,22 @@
     transition: 1s ease;
 }
 .image1:hover{
-    width: 200px;
+    width: 210px;
     margin-left: -20px;
     transition: 1s ease;
 }
 .image2:hover{
-    width: 200px;
+    width: 210px;
     margin-left: -20px;
     transition: 1s;
 }
 .image3:hover{
-    width: 200px;
+    width: 210px;
     margin-left: -20px;
     transition: 1s ease;
 }
 .image4:hover{
-    width: 200px;
+    width: 210px;
     margin-left: -20px;
     transition: 1s;
 }

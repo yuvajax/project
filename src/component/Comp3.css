@@ -46,17 +46,19 @@ overflow-x: hidden;
 }
 .containers2{
     max-width: 70%;
+    justify-content: center;
 }
-/* .containers{
-    overflow: hidden;
-} */
+.containers{
+    justify-content: center;
+}
 .inner-containers{
     max-width: 40%;
     height: 50%;
     float: right;
+    justify-content: center;
     margin-top: 40px;
     margin-right: 130px;
-        overflow-x: hidden;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 .containers-in p{
@@ -72,7 +74,6 @@ overflow-x: hidden;
 }
 #header1{
     font-size: 30px;
-    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 80%;
     height: 60px;

@@ -3,16 +3,18 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
+    justify-content: center;
 }
 .secin-container{
     margin-top: 90px;
-    margin-left: 250px;
-    display: flex;  
+    margin-left: 80px;
+    display: flex; 
+    justify-content: center; 
     overflow-x: hidden;
     overflow-y: hidden;
 }
 .firin-container{
-    margin-left: 40px;
+    margin-left: 90px;
 }
 .secin-container p{
     border: 2px solid transparent;
