@@ -6,7 +6,7 @@ li,a{
 }
 .inner-container{
     float: left;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 20px;
     padding-top: 0px;
     text-decoration: none;
@@ -24,9 +24,9 @@ li,a{
 }
 .second-container{
     float: right;
-    margin-right: 190px;
+    margin-right: 300px;
     margin-top: 20px;
-    padding-right: 0px;
+    padding-right: 15px;
     color: black;
     overflow-x: hidden;
     overflow-y: hidden;
