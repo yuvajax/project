@@ -8,15 +8,19 @@ li,a{
     float: left;
     margin-left: 100px;
     margin-top: 20px;
+    padding-top: 0px;
     text-decoration: none;
     color: black;
     overflow: hidden;
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.inner-container ul{
+    display: flex;
+    flex-direction: row;
+}
 .inner-container li a{
-    margin-left: -7px;
-    color: black;
+    padding-right: 15px;
 }
 .second-container{
     float: right;

@@ -18,8 +18,8 @@
 .innersubconatiner{
     display: flex;
     margin-top: 20px;
-    margin-left: 150px;
     margin-right: 0%;
+    justify-content: center;
 }
 .innersubdiv1,.innersubdiv2,.innersubdiv3{
     margin-left: 50px;
